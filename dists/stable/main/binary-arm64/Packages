@@ -1,13 +1,13 @@
 Package: digitalforge
-Version: 2.0.4
+Version: 2.0.5
 Architecture: arm64
 Maintainer: Micah van de Merwe <micahvdm@gmail.com>
-Installed-Size: 354
-Filename: pool/main/digitalforge_2.0.4_arm64.deb
-Size: 354572
-MD5sum: 69a348b8ea88bed31f47f50a39d6ea06
-SHA1: 603756cdd124bb97d4a9d245bdc36fd98b748cbd
-SHA256: ed5691e12cd1336d88aa16361f4726c9e1b605a67d6bc87b8a71161b3647b9af
+Installed-Size: 355
+Filename: pool/main/digitalforge_2.0.5_arm64.deb
+Size: 355036
+MD5sum: 539777e0849153ca8e10c4756db34b81
+SHA1: 5977af8b8a5e5517e549728f080af4e020035437
+SHA256: cff2a708989711e271723f4216ec1e0d061d7d2b823cf7737415b41338b066ea
 Section: audio
 Priority: optional
 Homepage: https://divideco.com
