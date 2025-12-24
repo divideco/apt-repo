@@ -24,3 +24,4 @@ gzip -k -f dists/stable/main/binary-arm64/Packages
 
 git add .
 git commit -m "Updating APT package $1"
+git push origin HEAD:main

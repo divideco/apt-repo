@@ -13,3 +13,104 @@ Priority: optional
 Homepage: https://divideco.com
 Description: DigitalForge apllication install
 
+Package: jack-tools
+Version: 1.0.4
+Architecture: arm64
+Maintainer: Micah John
+Installed-Size: 2994
+Depends: libasound2t64 (>= 1.0.18), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libjack-jackd2-0, libopus0 (>= 1.3.1-2~), libreadline8t64 (>= 6.0), libsamplerate0 (>= 0.1.7), libsndfile1 (>= 1.0.20), libstdc++6 (>= 5), libzita-alsa-pcmi0t64 (>= 0.2.0), libzita-resampler1 (>= 1.11.2)
+Filename: pool/main/jack-tools_1.0.4_arm64.deb
+Size: 122304
+MD5sum: 3c8bbdb7f6ea69d0da8afe9c1e5cdf63
+SHA1: 78fd8f01ff181296774d40654578669a4530680b
+SHA256: dcfb20fbd33eeb80b0b7af1028aece3a9808e71de78ae035e4b1400a491462e3
+Section: sound
+Priority: optional
+Homepage: https://github.com/jackaudio/jack-example-tools
+Description: JACK Audio Connection Kit (example clients)
+ Official examples and tools from the JACK project.
+
+Package: jackd2
+Version: 1.9.22-1
+Architecture: arm64
+Maintainer: Micah John
+Installed-Size: 2155
+Depends: libasound2t64 (>= 1.0.29), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libgcc-s1 (>= 3.0), libopus0 (>= 1.3.1-2~), libsamplerate0 (>= 0.1.7), libstdc++6 (>= 14), libsystemd0
+Filename: pool/main/jackd2_1.9.22-1_arm64.deb
+Size: 383228
+MD5sum: 3184eefdd08edaf8d9a2c8ac57f754cc
+SHA1: 4606dba8cb3b33a88db5c839f878987fd0d23f47
+SHA256: 05e9698dfd6d5444cdbb3fa9e14e6541e340ef8a27218a5c4738d393909d25a4
+Section: sound
+Priority: optional
+Homepage: https://github.com/mod-audio/jack2
+Description: JACK Audio Connection Kit (JACK2 server)
+ JACK is a low-latency audio server.
+ This package contains the jackd (JACK2) daemon.
+
+Package: lilv
+Version: 0.26.2
+Architecture: arm64
+Maintainer: Micah John
+Installed-Size: 569
+Depends: libc6 (>= 2.34), libserd-0-0 (>= 0.30.2), libsndfile1 (>= 1.0.20), libsord-0-0 (>= 0.14.0~dfsg0), libsratom-0-0 (>= 0.4.6~dfsg0), libzix-0-0 (>= 0.6.2)
+Filename: pool/main/lilv_0.26.2_arm64.deb
+Size: 78032
+MD5sum: 510fb70d767ca2e2b4b3d0f557f6659d
+SHA1: 425ee2ba87409d96d64f21f78dbe039b9cafdf12
+SHA256: b407d81b2b185a28a435817ae810882867a887a6aad010913ffd82bc9d2855fd
+Section: libs
+Priority: optional
+Homepage: https://gitlab.com/lv2/lilv
+Description: LV2 host library (lilv)
+ Lilv is a library for working with LV2 plugins.
+
+Package: mod-host
+Version: 1.14.0
+Architecture: arm64
+Maintainer: Micah John
+Installed-Size: 585
+Filename: pool/main/mod-host_1.14.0_arm64.deb
+Size: 98456
+MD5sum: d04d59093544aa6b09c150a9ecc39df0
+SHA1: dede576ede34c7ffa6773a4c5ed6cbc0baa76f0d
+SHA256: 48aba350ce46c5bc759c2ec45e4e58beb8952c66a3116764c5fe86824e47b9c8
+Section: audio
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://divideco.com
+Description: MOD-Host package.
+
+Package: mod-midi-merger
+Version: 1.0.0
+Architecture: arm64
+Maintainer: Micah John
+Installed-Size: 147
+Depends: libc6 (>= 2.34), libjack-jackd2-0
+Filename: pool/main/mod-midi-merger_1.0.0_arm64.deb
+Size: 7468
+MD5sum: 235dc0e7e193965b9fc984b35431ee9c
+SHA1: 5d925c9607b8c0a84da871aee01a5402b72205dc
+SHA256: 6acf3ca552c25ce9d4bac07f62a3dfb970e00471bcfbf8eb404453b69d66ff98
+Section: sound
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://divideco.com
+Description: mod-midi-merger package
+
+Package: sord
+Version: 0.16.20
+Architecture: arm64
+Maintainer: Micah John
+Installed-Size: 261
+Depends: libc6 (>= 2.34), libpcre2-8-0 (>= 10.22), libserd-0-0 (>= 0.14.0~dfsg0), libzix-0-0 (>= 0.4.2)
+Filename: pool/main/sord_0.16.20_arm64.deb
+Size: 30892
+MD5sum: 6efaed3a22b778a03bc0093876735554
+SHA1: 9b6ea41ae4c6e553a186ad85f6f77292d38aec62
+SHA256: af274449f14beec62654c3455e2bc430f3ad8399e8bdd88c04c1e32e0ba2e9d7
+Section: audio
+Priority: optional
+Homepage: <https://github.com/drobilla/sord>
+Description: Sord package
+
