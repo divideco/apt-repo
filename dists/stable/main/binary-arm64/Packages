@@ -1,32 +1,30 @@
 Package: audio-stack
 Version: 1.0.0-3
 Architecture: arm64
-Essential: yes
 Maintainer: Micah John <micahvdm@gmail.com>
 Installed-Size: 7
-Depends: jack2 (= 1.9.22-1), mod-host (= 1.14.0), mod-midi-merger (= 1.0.0), jack-tools (= 1.0.4)
+Depends: jack2 (= 1.9.22), mod-host (= 1.14.0), mod-midi-merger (= 1.0.0), jack-tools (= 1.0.4)
 Filename: pool/main/audio-stack_1.0.0-3_arm64.deb
-Size: 1192
-MD5sum: ac9c9aaaf2735494d1071ef5521c500b
-SHA1: 3ab83b82004c41964e675b8eca2ff20ab03475aa
-SHA256: 3606eae5601cb4f9d4a1526831a900cfe822eb7f7da20134bb039937c9cbc9f8
+Size: 1180
+MD5sum: 9fa6780e95d502d923ff2d7fff54c893
+SHA1: 5f24a5618795416d929495ee7925ecc5929cdeba
+SHA256: c9694b315e8e43e7f7614079981e3357095483126cf7b74678d67c35c070a9c3
 Section: metapackages
 Priority: optional
 Description: DigitalForge audio stack.
  Installs JACK2, mod-host, mod-midi-merger, and jack-tools as a bundle.
 
 Package: digitalforge
-Version: 2.0.8
+Version: 2.0.9
 Architecture: arm64
-Essential: yes
-Maintainer: Micah van de Merwe <micahvdm@gmail.com>
-Installed-Size: 362
+Maintainer: Micah John <micahvdm@gmail.com>
+Installed-Size: 363
 Depends: audio-stack (>= 1.0.0)
-Filename: pool/main/digitalforge_2.0.8_arm64.deb
-Size: 363420
-MD5sum: 7715e007d662c1836068038ad7d83ac8
-SHA1: d7291f176cacd78b544aae62c56d62a7748a0cf8
-SHA256: 617c1036592a56637498d91d5ccde2461945558eb4225c86fe4bc45e548393b0
+Filename: pool/main/digitalforge_2.0.9_arm64.deb
+Size: 363472
+MD5sum: 5cff9d6b64ec9b194912dfa307d7abfb
+SHA1: 03cbefc23b4270ee7a3b928549cf50515fb3511f
+SHA256: c8ac2dd2b966c36b49e40527b49897da7dc59b2cb27d4d0dea11212675fb5cec
 Section: audio
 Priority: optional
 Homepage: https://divideco.com
