@@ -48,74 +48,6 @@ Description: JACK Audio Connection Kit (JACK2 server)
  JACK is a low-latency audio server.
  This package contains the jackd (JACK2) daemon.
 
-Package: liblilv-dev
-Source: lilv
-Version: 0.26.2
-Architecture: arm64
-Maintainer: Micah John
-Installed-Size: 92
-Depends: lilv (= 0.26.2)
-Filename: pool/main/liblilv-dev_0.26.2_arm64.deb
-Size: 18896
-MD5sum: d6f1302b8e9395e2f654af930ddcfa21
-SHA1: 0fa45c5e1098cf46f2f11a295472283141d1bebb
-SHA256: a764dabf785d889dc60d4ec0e79a7e5900d99a5a12e3560c37b0868d69fa653b
-Section: libdevel
-Priority: optional
-Homepage: https://gitlab.com/lv2/lilv
-Description: LV2 host library (development files)
-
-Package: libsord-dev
-Source: sord
-Version: 0.16.20
-Architecture: arm64
-Maintainer: Micah John
-Installed-Size: 49
-Depends: sord (= 0.16.20)
-Filename: pool/main/libsord-dev_0.16.20_arm64.deb
-Size: 9808
-MD5sum: ab70a8b2b5b72dc0b0eb343b422aa06b
-SHA1: 423465fdac6e7012645c4c5525ad34b5ab18e643
-SHA256: 3bb7d36c6a04c9b7de56c62c2b33259b50e15037fe4dd2e4950b230635397b3e
-Section: libs
-Priority: optional
-Homepage: <https://github.com/drobilla/sord>
-
-Package: lilv
-Version: 0.26.2
-Architecture: arm64
-Maintainer: Micah John
-Installed-Size: 146
-Depends: libc6 (>= 2.34), libserd-0-0 (>= 0.30.2), libsord-0-0 (>= 0.14.0~dfsg0), libsratom-0-0 (>= 0.4.6~dfsg0), libzix-0-0 (>= 0.6.2)
-Filename: pool/main/lilv_0.26.2_arm64.deb
-Size: 36376
-MD5sum: 4ca217632ab2e36a7827b0f429209203
-SHA1: 71603cab10949baccd6ac706584cbe0cc1e3dc7b
-SHA256: a4f72ff3701262f3e6f15419417d86bbc3b910227a91d5749c859570f3604e4d
-Section: libs
-Priority: optional
-Homepage: https://gitlab.com/lv2/lilv
-Description: LV2 host library (lilv)
- Lilv is a library for working with LV2 plugins.
-
-Package: lilv-utils
-Source: lilv
-Version: 0.26.2
-Architecture: arm64
-Maintainer: Micah John
-Installed-Size: 289
-Depends: libc6 (>= 2.34), libsndfile1 (>= 1.0.20), lilv (>= 0.26.2)
-Filename: pool/main/lilv-utils_0.26.2_arm64.deb
-Size: 19720
-MD5sum: 67cfc49b586cf1424c0550e5b85b74ec
-SHA1: deb80fcdc9b8eb694803b9b15ce3d3abd799e004
-SHA256: aa96095e27332a9fcfd42c948888b690f789285bb188d67fe784ac1324a3045d
-Section: libs
-Priority: optional
-Homepage: https://gitlab.com/lv2/lilv
-Description: LV2 utilities based on lilv
- Command line tools for inspecting and working with LV2 plugins.
-
 Package: mod-host
 Version: 1.14.0
 Architecture: arm64
@@ -148,37 +80,4 @@ Priority: optional
 Multi-Arch: foreign
 Homepage: https://divideco.com
 Description: mod-midi-merger package
-
-Package: python3-lilv
-Source: lilv
-Version: 0.26.2
-Architecture: arm64
-Maintainer: Micah John
-Installed-Size: 72
-Filename: pool/main/python3-lilv_0.26.2_arm64.deb
-Size: 14672
-MD5sum: 613c9c535a337d1f042c9f9c8248b6ee
-SHA1: 3d8b1078425816628449cdbb8c0de144cd2492fa
-SHA256: b0fccd63aa21b7943cc58017689ea70b99041284dfaf7e5b92206b18f3bf032f
-Section: python
-Priority: optional
-Homepage: https://gitlab.com/lv2/lilv
-Description: Python 3 bindings for lilv
- Python bindings for the lilv LV2 library.
-
-Package: sord
-Version: 0.16.20
-Architecture: arm64
-Maintainer: Micah John
-Installed-Size: 223
-Depends: libc6 (>= 2.34), libpcre2-8-0 (>= 10.22), libserd-0-0 (>= 0.14.0~dfsg0), libzix-0-0 (>= 0.4.2)
-Filename: pool/main/sord_0.16.20_arm64.deb
-Size: 23384
-MD5sum: cc55732074da30493a73fa8112cb664e
-SHA1: 8eb0b9fae6ac16bd09581d0934544eb90fd40db7
-SHA256: a207c6577fc1ca4e6ec42269acc249d7d63dc00624eebb833b190f6c62453478
-Section: libs
-Priority: optional
-Homepage: <https://github.com/drobilla/sord>
-Description: Sord package
 
