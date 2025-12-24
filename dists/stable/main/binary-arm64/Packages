@@ -54,11 +54,14 @@ Architecture: arm64
 Maintainer: Micah John
 Installed-Size: 569
 Depends: libc6 (>= 2.34), libserd-0-0 (>= 0.30.2), libsndfile1 (>= 1.0.20), libsord-0-0 (>= 0.14.0~dfsg0), libsratom-0-0 (>= 0.4.6~dfsg0), libzix-0-0 (>= 0.6.2)
+Conflicts: liblilv-dev
+Breaks: liblilv-dev (<< 0.26.2)
+Replaces: liblilv-dev
 Filename: pool/main/lilv_0.26.2_arm64.deb
-Size: 78032
-MD5sum: 510fb70d767ca2e2b4b3d0f557f6659d
-SHA1: 425ee2ba87409d96d64f21f78dbe039b9cafdf12
-SHA256: b407d81b2b185a28a435817ae810882867a887a6aad010913ffd82bc9d2855fd
+Size: 78064
+MD5sum: e1028b7f8377a46416c6c457adcd987e
+SHA1: f905ca22a190d88135bf4a775cabfcdf922cc4ed
+SHA256: 61ddd032200d632062c0d6d0bdb6d62822235c79502a68fa20added764fb397e
 Section: libs
 Priority: optional
 Homepage: https://gitlab.com/lv2/lilv
@@ -104,12 +107,15 @@ Architecture: arm64
 Maintainer: Micah John
 Installed-Size: 261
 Depends: libc6 (>= 2.34), libpcre2-8-0 (>= 10.22), libserd-0-0 (>= 0.14.0~dfsg0), libzix-0-0 (>= 0.4.2)
+Conflicts: libsord-dev
+Breaks: libsord-dev (<< 0.16.20)
+Replaces: libsord-dev
 Filename: pool/main/sord_0.16.20_arm64.deb
-Size: 30892
-MD5sum: 6efaed3a22b778a03bc0093876735554
-SHA1: 9b6ea41ae4c6e553a186ad85f6f77292d38aec62
-SHA256: af274449f14beec62654c3455e2bc430f3ad8399e8bdd88c04c1e32e0ba2e9d7
-Section: audio
+Size: 30924
+MD5sum: 522327efd44647114b558365ab25079f
+SHA1: 436e1b42ebe433c6f1ccb09a247f5452551fd0a9
+SHA256: 5e029ea5fe267199bab36ec1d8e2ba04021012b27d27eeca5db0d6068dee5d77
+Section: libs
 Priority: optional
 Homepage: <https://github.com/drobilla/sord>
 Description: Sord package
