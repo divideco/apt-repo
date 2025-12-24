@@ -30,17 +30,17 @@ Homepage: https://github.com/jackaudio/jack-example-tools
 Description: JACK Audio Connection Kit (example clients)
  Official examples and tools from the JACK project.
 
-Package: jackd2
+Package: jack2
 Version: 1.9.22-1
 Architecture: arm64
 Maintainer: Micah John
-Installed-Size: 2155
+Installed-Size: 2153
 Depends: libasound2t64 (>= 1.0.29), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libgcc-s1 (>= 3.0), libopus0 (>= 1.3.1-2~), libsamplerate0 (>= 0.1.7), libstdc++6 (>= 14), libsystemd0
-Filename: pool/main/jackd2_1.9.22-1_arm64.deb
-Size: 383228
-MD5sum: 3184eefdd08edaf8d9a2c8ac57f754cc
-SHA1: 4606dba8cb3b33a88db5c839f878987fd0d23f47
-SHA256: 05e9698dfd6d5444cdbb3fa9e14e6541e340ef8a27218a5c4738d393909d25a4
+Filename: pool/main/jack2_1.9.22-1_arm64.deb
+Size: 382272
+MD5sum: bc731f0e95e6c91cfdfa22e5d16491ca
+SHA1: 2211e016c24e8ab807184a8f8196c274c9eb7641
+SHA256: 19e5958a1c6efa0b801bb3324e1f275fde2c97d3fa8de5e1ae0e2babd4142f21
 Section: sound
 Priority: optional
 Homepage: https://github.com/mod-audio/jack2
