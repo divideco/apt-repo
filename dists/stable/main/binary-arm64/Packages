@@ -4,12 +4,12 @@ Architecture: arm64
 Essential: yes
 Maintainer: Micah John <micahvdm@gmail.com>
 Installed-Size: 7
-Depends: jack2 (= 1.9.22), mod-host (= 1.14.0), mod-midi-merger (= 1.0.0), jack-tools (= 1.0.4)
+Depends: jack2 (= 1.9.22-1), mod-host (= 1.14.0), mod-midi-merger (= 1.0.0), jack-tools (= 1.0.4)
 Filename: pool/main/audio-stack_1.0.0-3_arm64.deb
 Size: 1192
-MD5sum: 39776127626f2821bb57ecdf64db32b2
-SHA1: be296d589e80916875d16e193bc5536999d85e47
-SHA256: b531b7060ebd1864984a012f3a6112558e5bced5eacd2ff0f03ba16568263aa7
+MD5sum: ac9c9aaaf2735494d1071ef5521c500b
+SHA1: 3ab83b82004c41964e675b8eca2ff20ab03475aa
+SHA256: 3606eae5601cb4f9d4a1526831a900cfe822eb7f7da20134bb039937c9cbc9f8
 Section: metapackages
 Priority: optional
 Description: DigitalForge audio stack.
