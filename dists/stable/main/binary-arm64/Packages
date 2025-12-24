@@ -1,3 +1,19 @@
+Package: audio-stack
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Micah John <micahvdm@gmail.com>
+Installed-Size: 7
+Depends: jack2 (>= 1.9.22), mod-host (>= 1.14.0), mod-midi-merger (>= 1.0.0), jack-tools (>= 1.0.4)
+Filename: pool/main/audio-stack_1.0.0-1_all.deb
+Size: 1140
+MD5sum: 91cdfaa2afd3b20fad247a79d449a245
+SHA1: 3421977335f6d8ae62c7817a7e703933d6c679e2
+SHA256: b4b50e1ea549e1189355aa8f5b0aae4e379a315f5772d3653781ea1300a350d0
+Section: metapackages
+Priority: optional
+Description: DigitalForge audio stack.
+ Installs JACK2, mod-host, mod-midi-merger, and jack-tools as a bundle.
+
 Package: digitalforge
 Version: 2.0.6
 Architecture: arm64
