@@ -1,6 +1,25 @@
 Package: audio-stack
-Version: 1.0.0-3
+Architecture: all
+Version: 1.0.0-1
+Priority: optional
+Section: metapackages
+Maintainer: Micah John <micahvdm@gmail.com>
+Installed-Size: 7
+Depends: jack2 (>= 1.9.22), mod-host (>= 1.14.0), mod-midi-merger (>= 1.0.0), jack-tools (>= 1.0.4)
+Filename: pool/main/audio-stack_1.0.0-1_all.deb
+Size: 1140
+MD5sum: 91cdfaa2afd3b20fad247a79d449a245
+SHA1: 3421977335f6d8ae62c7817a7e703933d6c679e2
+SHA256: b4b50e1ea549e1189355aa8f5b0aae4e379a315f5772d3653781ea1300a350d0
+SHA512: 6cfc989046bcbcba8f4ccd33bd0da9e3f7301d1dbaf5a1f11079842f90a1f8280fc4725712e91ffb7fdf6b9b08c38850073c878f68349756b5f6e80a5c59123b
+Description: DigitalForge audio stack.
+ Installs JACK2, mod-host, mod-midi-merger, and jack-tools as a bundle.
+
+Package: audio-stack
 Architecture: arm64
+Version: 1.0.0-3
+Priority: optional
+Section: metapackages
 Maintainer: Micah John <micahvdm@gmail.com>
 Installed-Size: 7
 Depends: jack2 (= 1.9.22-1), mod-host (= 1.14.0), mod-midi-merger (= 1.0.0), jack-tools (= 1.0.4)
@@ -9,14 +28,31 @@ Size: 1184
 MD5sum: a03050d88c98cf415bb0346a98c6bb70
 SHA1: e74eb008598328f2cf942ac91ec442c63b0c0393
 SHA256: 53857a967c36b427695bddd14b35302e391427730dfe94952b8bad2995452df5
-Section: metapackages
-Priority: optional
+SHA512: 52ed8ee0e1a13ca52c68f79f4df45a18ba8bde895cee02f38ef1f68e42a0725d2fa5883b2efbb6f3fa9e38d549b74a0040771073855e4dc199a998c0b7685a5e
 Description: DigitalForge audio stack.
  Installs JACK2, mod-host, mod-midi-merger, and jack-tools as a bundle.
 
 Package: digitalforge
-Version: 2.0.10
 Architecture: arm64
+Version: 2.0.0
+Priority: optional
+Section: audio
+Maintainer: Micah van de Merwe <micahvdm@gmail.com>
+Installed-Size: 2866
+Filename: pool/main/digitalforge_2.0.0_arm64.deb
+Size: 2926868
+MD5sum: be441104118c629340a468846eaa873b
+SHA1: 5dd6f8aa6cc57859e4624b01166fd2bc6fc0447e
+SHA256: 4f7d9e502c3df8aff21a9c1377e02abe1193b4f5ca20538480b04af8cd417121
+SHA512: b12e729193054061a1e17319a54e400becfd829fb7642e682fdb534de270bcf8d4c91034f11a534fd4880d5d35ac80224dfeb68b4279866e9ab083fed8b5480a
+Homepage: https://divideco.com
+Description: DigitalForge apllication install
+
+Package: digitalforge
+Architecture: arm64
+Version: 2.0.10
+Priority: optional
+Section: audio
 Maintainer: Micah John <micahvdm@gmail.com>
 Installed-Size: 361
 Depends: audio-stack (>= 1.0.0)
@@ -25,14 +61,145 @@ Size: 361540
 MD5sum: 9515acf875c5ba2128d246b236b18c43
 SHA1: 48eeaf2d6eacf83e612aad8d6a4e0f04538540db
 SHA256: 6c3b6ebe26d3afcecd660693c267974ec4544b2b96deb8a7ef81a8f63c8af17c
-Section: audio
+SHA512: 2ad5b52b21d1c3abb99956fba8a688a16cac6ae0f7573368146eb3d42b39d2eb406b7a10dabb29db16f3883bf3ed8e470b969a0e4af9575c530892d43cbb5b5a
+Homepage: https://divideco.com
+Description: DigitalForge apllication install
+
+Package: digitalforge
+Architecture: arm64
+Version: 2.0.11
 Priority: optional
+Section: audio
+Maintainer: Micah John <micahvdm@gmail.com>
+Installed-Size: 361
+Depends: audio-stack (>= 1.0.0)
+Filename: pool/main/digitalforge_2.0.11_arm64.deb
+Size: 361616
+MD5sum: c616264c297c71a4e89ece225a4a393c
+SHA1: d6a8275fcffdf942edf1aa1cafffee1d7659f317
+SHA256: ea255b271e43186dc8acccc84465963b5d12fc6d5556bd6711d210c484050087
+SHA512: 7e7adc2a4725e114e5288c63a8fb84fb132c6c063fec5241e27992154ff77342ab3d7de5331e1e87bab9d42131c56c500fabe05480ce284647ff3d8f8d7ef93d
+Homepage: https://divideco.com
+Description: DigitalForge application install
+
+Package: digitalforge
+Architecture: arm64
+Version: 2.0.1
+Priority: optional
+Section: audio
+Maintainer: Micah van de Merwe <micahvdm@gmail.com>
+Installed-Size: 353
+Filename: pool/main/digitalforge_2.0.1_arm64.deb
+Size: 353948
+MD5sum: 09c8a7a66431c17a037b45c4514f54a1
+SHA1: 732ef11a66e5696dc7a18c4dc22d6e8a62020385
+SHA256: 60704e8ccdf5271169b30b20981ddb4a6cb14e5f64befecb2afede981600a39a
+SHA512: a1d61675f57dc29850f8a04b55618dda009c45e2f282714f97e778ad290f5e62c18d7b0e9b04d818ea6ad169ae1de30a9df519d0d0f0fffecd3a553dccf1bff1
+Homepage: https://divideco.com
+Description: DigitalForge apllication install
+
+Package: digitalforge
+Architecture: arm64
+Version: 2.0.2
+Priority: optional
+Section: audio
+Maintainer: Micah van de Merwe <micahvdm@gmail.com>
+Installed-Size: 354
+Filename: pool/main/digitalforge_2.0.2_arm64.deb
+Size: 354060
+MD5sum: 743ba91ff65fdb3775df1eb849cc57dc
+SHA1: e6c6e7e5f685085b24f5a6315ff808a63652d50a
+SHA256: d81a6e26c81ea1770aca736d763f7199455c535868beb4773d26ac654d11cc70
+SHA512: 4bc11f4edef9d81b9c3af46ef5c77a2e8079f48f330e43646d516011e5b122066c2c98d47d9c982d5a1c2c06d2bfbf5931b8d091e9944bf03d2f29d04daa1986
+Homepage: https://divideco.com
+Description: DigitalForge apllication install
+
+Package: digitalforge
+Architecture: arm64
+Version: 2.0.3
+Priority: optional
+Section: audio
+Maintainer: Micah van de Merwe <micahvdm@gmail.com>
+Installed-Size: 354
+Filename: pool/main/digitalforge_2.0.3_arm64.deb
+Size: 354392
+MD5sum: ca63a72af555ad9698337853e65551d1
+SHA1: 04e4a5fd0b3164301282148e0b2dafb00a20b188
+SHA256: a3c098c7562d8b3e3f322cd661ef7b5b2f847f92cc8bf3cd28ca1f45fe8f433c
+SHA512: 4f4da71c845003d7807374a4e6c83c0f1c4bc83417ab0962835b3a5fa4317fe7ec96f336f2c96f73122712bef9306e2f0f19f4f23aaba37795d22914de68f87e
+Homepage: https://divideco.com
+Description: DigitalForge apllication install
+
+Package: digitalforge
+Architecture: arm64
+Version: 2.0.4
+Priority: optional
+Section: audio
+Maintainer: Micah van de Merwe <micahvdm@gmail.com>
+Installed-Size: 354
+Filename: pool/main/digitalforge_2.0.4_arm64.deb
+Size: 354572
+MD5sum: 69a348b8ea88bed31f47f50a39d6ea06
+SHA1: 603756cdd124bb97d4a9d245bdc36fd98b748cbd
+SHA256: ed5691e12cd1336d88aa16361f4726c9e1b605a67d6bc87b8a71161b3647b9af
+SHA512: b9116dd7f12e67ddaef81d1c898e1eb56198468c340b39ec1a055e2da25eb9c92ed089f2341585f9265fa6ba01b8374f1df29e93ff809b9384f5b7db2a7f711a
+Homepage: https://divideco.com
+Description: DigitalForge apllication install
+
+Package: digitalforge
+Architecture: arm64
+Version: 2.0.5
+Priority: optional
+Section: audio
+Maintainer: Micah van de Merwe <micahvdm@gmail.com>
+Installed-Size: 355
+Filename: pool/main/digitalforge_2.0.5_arm64.deb
+Size: 355036
+MD5sum: 539777e0849153ca8e10c4756db34b81
+SHA1: 5977af8b8a5e5517e549728f080af4e020035437
+SHA256: cff2a708989711e271723f4216ec1e0d061d7d2b823cf7737415b41338b066ea
+SHA512: b435ce64486389d2b8d06d251272355ad74db5522407d3f4a4fb606ef0d0849a0048aa0c3f07e7470dec03d79b469fe96c0563c18a0682ee492c2336540db865
+Homepage: https://divideco.com
+Description: DigitalForge apllication install
+
+Package: digitalforge
+Architecture: arm64
+Version: 2.0.6
+Priority: optional
+Section: audio
+Maintainer: Micah van de Merwe <micahvdm@gmail.com>
+Installed-Size: 363
+Filename: pool/main/digitalforge_2.0.6_arm64.deb
+Size: 364076
+MD5sum: 70f87a242c6bf5cd29b9a1ba9d501214
+SHA1: 05e93a87abe4a42b30691304d5415c3e9ac14118
+SHA256: 5a327f74a998df06b9f1fcbea20bc5262f1b62cea4fe8c8d02f76a364df2acd9
+SHA512: 449c814d5bda562ad75e781f20108c9006c508c8ea60b0b926ec897e613a78c11b939c3e6fb31de362e2f0999d54be0bc91cc77259917f1db77879a547d28366
+Homepage: https://divideco.com
+Description: DigitalForge apllication install
+
+Package: digitalforge
+Architecture: arm64
+Version: 2.0.7
+Priority: optional
+Section: audio
+Maintainer: Micah van de Merwe <micahvdm@gmail.com>
+Installed-Size: 362
+Depends: audio-stack (>= 1.0.0)
+Filename: pool/main/digitalforge_2.0.7_arm64.deb
+Size: 363376
+MD5sum: cca3226c5b651f07ceb5991063d715c3
+SHA1: fff9353d7751762cd2a7dae292ab5f754ce756e6
+SHA256: 5d7ad2b19c105903208a6af89da3fdd8db5ed2c74ff3f0d9bacdd029973cac0a
+SHA512: d6343adfd79fe17e951652342f2e988a9c2d574806e8bd294d38c9e9d733ef2735ce6c7b25ff2053704790d305dc5621992c5b163c34e77c1c0f0bb7adcceca8
 Homepage: https://divideco.com
 Description: DigitalForge apllication install
 
 Package: jack-tools
-Version: 1.0.4
 Architecture: arm64
+Version: 1.0.4
+Priority: optional
+Section: sound
 Maintainer: Micah John
 Installed-Size: 2994
 Depends: libasound2t64 (>= 1.0.18), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libjack-jackd2-0, libopus0 (>= 1.3.1-2~), libreadline8t64 (>= 6.0), libsamplerate0 (>= 0.1.7), libsndfile1 (>= 1.0.20), libstdc++6 (>= 5), libzita-alsa-pcmi0t64 (>= 0.2.0), libzita-resampler1 (>= 1.11.2)
@@ -41,15 +208,16 @@ Size: 122304
 MD5sum: 3c8bbdb7f6ea69d0da8afe9c1e5cdf63
 SHA1: 78fd8f01ff181296774d40654578669a4530680b
 SHA256: dcfb20fbd33eeb80b0b7af1028aece3a9808e71de78ae035e4b1400a491462e3
-Section: sound
-Priority: optional
+SHA512: 4e09b6e9b0ce520de877cda91747281e155478fb6d3570ddbcd460ec19b60b2130c64395ff956cba1d278aebabcd1a92dba7b1b1b46027e630db6a1e3ee46929
 Homepage: https://github.com/jackaudio/jack-example-tools
 Description: JACK Audio Connection Kit (example clients)
  Official examples and tools from the JACK project.
 
 Package: jack2
-Version: 1.9.22-1
 Architecture: arm64
+Version: 1.9.22-1
+Priority: optional
+Section: sound
 Maintainer: Micah John
 Installed-Size: 2153
 Depends: libasound2t64 (>= 1.0.29), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libgcc-s1 (>= 3.0), libopus0 (>= 1.3.1-2~), libsamplerate0 (>= 0.1.7), libstdc++6 (>= 14), libsystemd0
@@ -58,16 +226,18 @@ Size: 382272
 MD5sum: bc731f0e95e6c91cfdfa22e5d16491ca
 SHA1: 2211e016c24e8ab807184a8f8196c274c9eb7641
 SHA256: 19e5958a1c6efa0b801bb3324e1f275fde2c97d3fa8de5e1ae0e2babd4142f21
-Section: sound
-Priority: optional
+SHA512: 5f3c1220ac1841b9c78597774f401da95b5570a797d628cc48711de2534ed515af30fcdfdb7b7180cc0508327c35a48a633c90dc530846342e0c12bc790decfa
 Homepage: https://github.com/mod-audio/jack2
 Description: JACK Audio Connection Kit (JACK2 server)
  JACK is a low-latency audio server.
  This package contains the jackd (JACK2) daemon.
 
 Package: mod-host
-Version: 1.14.0
 Architecture: arm64
+Version: 1.14.0
+Multi-Arch: foreign
+Priority: optional
+Section: audio
 Maintainer: Micah John
 Installed-Size: 585
 Filename: pool/main/mod-host_1.14.0_arm64.deb
@@ -75,15 +245,16 @@ Size: 98456
 MD5sum: d04d59093544aa6b09c150a9ecc39df0
 SHA1: dede576ede34c7ffa6773a4c5ed6cbc0baa76f0d
 SHA256: 48aba350ce46c5bc759c2ec45e4e58beb8952c66a3116764c5fe86824e47b9c8
-Section: audio
-Priority: optional
-Multi-Arch: foreign
+SHA512: 41968d69ebeb02c4a10533910125fe6888f7ce5de36053d9e109f2539e26baebbe3c9149f34d073a79ca09ed2333a4ea6548696ee3b7503c4bcfa08942a23bd1
 Homepage: https://divideco.com
 Description: MOD-Host package.
 
 Package: mod-midi-merger
-Version: 1.0.0
 Architecture: arm64
+Version: 1.0.0
+Multi-Arch: foreign
+Priority: optional
+Section: sound
 Maintainer: Micah John
 Installed-Size: 147
 Depends: libc6 (>= 2.34), libjack-jackd2-0
@@ -92,9 +263,7 @@ Size: 7468
 MD5sum: 235dc0e7e193965b9fc984b35431ee9c
 SHA1: 5d925c9607b8c0a84da871aee01a5402b72205dc
 SHA256: 6acf3ca552c25ce9d4bac07f62a3dfb970e00471bcfbf8eb404453b69d66ff98
-Section: sound
-Priority: optional
-Multi-Arch: foreign
+SHA512: 03e967c2d123e8bb859b24380ca5ac56f9adfc752686fa909a48905c52e6b829ba2132f99bde966b2b7b8e1fd6506fa3827cdbd7057634fd3732106e0400b8c1
 Homepage: https://divideco.com
 Description: mod-midi-merger package
 
