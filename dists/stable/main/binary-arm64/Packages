@@ -15,16 +15,16 @@ Description: DigitalForge audio stack.
  Installs JACK2, mod-host, mod-midi-merger, and jack-tools as a bundle.
 
 Package: digitalforge
-Version: 2.0.9
+Version: 2.0.10
 Architecture: arm64
 Maintainer: Micah John <micahvdm@gmail.com>
-Installed-Size: 363
+Installed-Size: 361
 Depends: audio-stack (>= 1.0.0)
-Filename: pool/main/digitalforge_2.0.9_arm64.deb
-Size: 363472
-MD5sum: 5cff9d6b64ec9b194912dfa307d7abfb
-SHA1: 03cbefc23b4270ee7a3b928549cf50515fb3511f
-SHA256: c8ac2dd2b966c36b49e40527b49897da7dc59b2cb27d4d0dea11212675fb5cec
+Filename: pool/main/digitalforge_2.0.10_arm64.deb
+Size: 361540
+MD5sum: 9515acf875c5ba2128d246b236b18c43
+SHA1: 48eeaf2d6eacf83e612aad8d6a4e0f04538540db
+SHA256: 6c3b6ebe26d3afcecd660693c267974ec4544b2b96deb8a7ef81a8f63c8af17c
 Section: audio
 Priority: optional
 Homepage: https://divideco.com
