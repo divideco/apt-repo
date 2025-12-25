@@ -19,8 +19,11 @@ set -e
 #	fi
 #done
 
-dpkg-scanpackages pool /dev/null > dists/stable/main/binary-arm64/Packages
-gzip -k -f dists/stable/main/binary-arm64/Packages
+# dpkg-scanpackages pool /dev/null > dists/stable/main/binary-arm64/Packages
+# gzip -k -f dists/stable/main/binary-arm64/Packages
+
+apt-ftparchive packages pool/main > dists/stable/main/binary-arm64/Packages
+gzip -kf dists/stable/main/binary-arm64/Packages
 
 git add .
 git commit -m "Updating APT package $1"
