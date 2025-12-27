@@ -195,6 +195,23 @@ SHA512: d6343adfd79fe17e951652342f2e988a9c2d574806e8bd294d38c9e9d733ef2735ce6c7b
 Homepage: https://divideco.com
 Description: DigitalForge apllication install
 
+Package: digitalforge
+Architecture: arm64
+Version: 2.1.0
+Priority: optional
+Section: audio
+Maintainer: Micah John <micahvdm@gmail.com>
+Installed-Size: 354
+Depends: audio-stack (>= 1.0.0)
+Filename: pool/main/digitalforge_2.1.0_arm64.deb
+Size: 354364
+MD5sum: e771add1b6da1e8c8d8044b45533c2ea
+SHA1: d240b026e4c3f825033d3f4425e3a303666a19a8
+SHA256: 10bd57014e7e7e9df998e24be0b8263e5cec8ec6df7f72739ce44038b91d8662
+SHA512: 7480380ee30561040c9cb732dadd7fc4e4509b6415f9f59f9b2779c10aaf0209cb714bf8414dbdf825c2360e907c120e33756aed659e956a210b0d787374f8db
+Homepage: https://divideco.com
+Description: DigitalForge application install
+
 Package: jack-tools
 Architecture: arm64
 Version: 1.0.4
