@@ -324,17 +324,17 @@ Version: 1.9.23
 Priority: optional
 Section: sound
 Maintainer: Micah John
-Installed-Size: 2139
+Installed-Size: 3050
 Provides: jackd2
-Depends: libasound2t64 (>= 1.0.29), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libopus0 (>= 1.3.1-2~), libsamplerate0 (>= 0.1.7), libstdc++6 (>= 14)
+Depends: libasound2t64 (>= 1.0.29), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libopus0 (>= 1.3.1-2~), libsamplerate0 (>= 0.1.7), libstdc++6 (>= 13.1)
 Conflicts: jackd2
 Replaces: jackd2
 Filename: pool/main/jack2_1.9.23_arm64.deb
-Size: 370668
-MD5sum: ee64368bf5aa2ea0e787ab793cb28df3
-SHA1: 10f07910cc8aa3c04b22e9a647012392815f477a
-SHA256: 8cfdacf829b325b8dc618a7ab7d39d7c51a1a0cbe17e848b6d4d632c615d58ea
-SHA512: eae18ad83be5784d50938e70a48b7975a1f0e37842138731338cd3ad076550546e0abc53db427ada4f7bbafbded50f93e30f685765581dca501cc2843cdadbcd
+Size: 415148
+MD5sum: fde27a4a3318a6b679d72b7e77df1020
+SHA1: 9fa52c055410f9a8743115d4aa600e240fc65cde
+SHA256: f07446cb42ad65feecbf72266d5a04fd83c2358f8e69c069c7d7d0be46ca1a70
+SHA512: fe69a87490ad3f525c7eb9746eeec7908255c70200f9594d689e4c2c14208ef0e9f3b457daad3127688af4e0d096f25fdcab23e4cf2bb140289d54cbfa897c5d
 Homepage: https://github.com/mod-audio/jack2
 Description: JACK Audio Connection Kit (JACK2 server)
  JACK is a low-latency audio server.
@@ -347,17 +347,17 @@ Priority: optional
 Section: libdevel
 Source: jack2
 Maintainer: Micah John
-Installed-Size: 211
+Installed-Size: 9
 Provides: libjack-jackd2-dev
 Depends: jack2 (= 1.9.23)
 Conflicts: libjack-jackd2-dev
 Replaces: libjack-jackd2-dev
 Filename: pool/main/libjack-jack2-dev_1.9.23_arm64.deb
-Size: 39144
-MD5sum: e2fb58a777380638eafa51d22c0975ef
-SHA1: 10dc22c2d6ba2463facbaf43267498f9e9868e92
-SHA256: c8b90c322deed903f5a568aa1a07230e976ba747cb591871166bfdffdf9a7fd9
-SHA512: a0e69d03bb34455bafec7c013151a12a0099e9a356c831d254a14e3b6aa45cb5badc593dcd38fff63a22a96d1fdaca4189c22ac7082f4d358a2890b2394dc03f
+Size: 2296
+MD5sum: fb1aa29290cd1ccd9a7757b1af8df9af
+SHA1: 2fab5d02467a29ecb0c17288cb7f6325a6e0db5d
+SHA256: b55e2b6db2e5e9b311bcf13efd15af6ea8f8ee697c82d216a6d76194d02fa4ee
+SHA512: 91ee3a0842563a370bdfa3c8ccc83f6faccbc56b06a4d263610de8f37200d98f6f98ffd52371d8831db71f20f37d48080dca1d7f93f685a4a3792beb18bd1aac
 Homepage: https://github.com/mod-audio/jack2
 Description: JACK Audio Connection Kit (JACK2) development files
  Headers and linker symlinks for building software against JACK2.
@@ -386,13 +386,13 @@ Multi-Arch: foreign
 Priority: optional
 Section: audio
 Maintainer: Micah John
-Installed-Size: 585
+Installed-Size: 584
 Filename: pool/main/mod-host_1.15.0_arm64.deb
-Size: 97168
-MD5sum: b26acf9e00e1ae98bdbc16b375c7ceea
-SHA1: 43488c76474e5100b9333e035384e856b4c21b4b
-SHA256: c68bd1f1b406ca51f3ae6661634839ea3be4b594a2b4a690456a7aacbfe14506
-SHA512: 9acff32cb68dec2b8476c38e1fa9523d082d39586ea66a01ee3152d325e2b3b0ef73869a37fc38ce50eb0199775ac89e7bf680578d91dacc51564951f29b4daf
+Size: 93732
+MD5sum: abb4992389969f23e626d18f7f3dce5f
+SHA1: 3f72bad69d20a69822d18ddc9d4a43b2d660a273
+SHA256: 3c0ed18e7ae434047c16f7939e8dca8bb842252700ec236f249b9b2f326ec97d
+SHA512: 1094d7c63285fdce48128d7ccbafcbfa163722f85541beec22eefd9763f9010f138c4540fdeee00585afd1c777545c8f765fb8bba15f50810a63e07e2a323daa
 Homepage: https://divideco.com
 Description: MOD-Host package.
 
