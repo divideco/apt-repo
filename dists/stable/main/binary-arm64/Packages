@@ -32,6 +32,41 @@ SHA512: 52ed8ee0e1a13ca52c68f79f4df45a18ba8bde895cee02f38ef1f68e42a0725d2fa5883b
 Description: DigitalForge audio stack.
  Installs JACK2, mod-host, mod-midi-merger, and jack-tools as a bundle.
 
+Package: audio-stack
+Architecture: arm64
+Version: 2.0.0
+Priority: optional
+Essential: yes
+Section: metapackages
+Maintainer: Micah John <micahvdm@gmail.com>
+Installed-Size: 7
+Depends: jack2 (= 1.9.23), mod-host (= 1.15.0), mod-midi-merger (= 1.0.0), jack-tools (= 1.0.4), df-plugins (= 1.1.0)
+Filename: pool/main/audio-stack_2.0.0_arm64.deb
+Size: 1228
+MD5sum: b0e1fd2e0c239f77ce02b06a0d9b9448
+SHA1: cf75ea1094d9e72d431f652c0b85a7dc18584a83
+SHA256: f6b760d2a630291e35c812dbf9933158b749bc6a16ced744e50baa5e7aad7d4d
+SHA512: 0150e4e3cc82234a89baba146030e2928efb98bf618948ad712e301c1c53289397f8a584e2c354fb82071466bdd543c501decdd2365243839cb3076259dfc563
+Description: DigitalForge audio stack.
+ Installs JACK2, mod-host, mod-midi-merger, and jack-tools as a bundle.
+
+Package: df-plugins
+Architecture: arm64
+Version: 1.1.0
+Priority: optional
+Essential: yes
+Section: metapackages
+Maintainer: Micah John <micahvdm@gmail.com>
+Installed-Size: 351931
+Filename: pool/main/df-plugins_1.1.0_arm64.deb
+Size: 126803404
+MD5sum: 2eb8421e35ecc62a6f99603a0f298b55
+SHA1: 43883cbf624c94f4e3a90e06f05eae2885f46498
+SHA256: 864124a010ff1392d6a30035159858be274defcc6bbfec1285c360207c62421e
+SHA512: c6313fe92686aa2d22a2524c2eb9fbaf2e46bec8f1bf5be7ade582e084eda72cc5671d5a6981b91c8cd90f03aabafc5b102046e4bfbd21c423530847165be997
+Description: DigitalForge audio plugins.
+ Installs plugins and plugin updates.
+
 Package: digitalforge
 Architecture: arm64
 Version: 2.0.0
@@ -229,6 +264,23 @@ SHA512: d3a6005bcee57ef685950f7ffbfe3aeb6576b69d4bd77a74471ba8b7480f34928ff14652
 Homepage: https://divideco.com
 Description: DigitalForge application install
 
+Package: digitalforge
+Architecture: arm64
+Version: 3.0.0
+Priority: optional
+Section: audio
+Maintainer: Micah John <micahvdm@gmail.com>
+Installed-Size: 1178
+Depends: audio-stack (>= 2.0.0)
+Filename: pool/main/digitalforge_3.0.0_arm64.deb
+Size: 1199004
+MD5sum: 973c9e29bc6f059b9d91c4d4c7751e27
+SHA1: 077c71f6be1102785c1f3e209bb8437bae37162f
+SHA256: c91252bf9ad68f335c72ff621e3aa43740f61299bcfc8de934bd39b8d34b8279
+SHA512: 1c828699219d14c2e837a8bf18d64f976b5daee0c75d52228f5d47f4ae5002ecabc18b81ac3580dc9d1a5844ccbf423f42e6489e420a69f993e44a8d4719c971
+Homepage: https://divideco.com
+Description: DigitalForge application install
+
 Package: jack-tools
 Architecture: arm64
 Version: 1.0.4
@@ -266,6 +318,50 @@ Description: JACK Audio Connection Kit (JACK2 server)
  JACK is a low-latency audio server.
  This package contains the jackd (JACK2) daemon.
 
+Package: jack2
+Architecture: arm64
+Version: 1.9.23
+Priority: optional
+Section: sound
+Maintainer: Micah John
+Installed-Size: 2139
+Provides: jackd2
+Depends: libasound2t64 (>= 1.0.29), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libopus0 (>= 1.3.1-2~), libsamplerate0 (>= 0.1.7), libstdc++6 (>= 14)
+Conflicts: jackd2
+Replaces: jackd2
+Filename: pool/main/jack2_1.9.23_arm64.deb
+Size: 370668
+MD5sum: ee64368bf5aa2ea0e787ab793cb28df3
+SHA1: 10f07910cc8aa3c04b22e9a647012392815f477a
+SHA256: 8cfdacf829b325b8dc618a7ab7d39d7c51a1a0cbe17e848b6d4d632c615d58ea
+SHA512: eae18ad83be5784d50938e70a48b7975a1f0e37842138731338cd3ad076550546e0abc53db427ada4f7bbafbded50f93e30f685765581dca501cc2843cdadbcd
+Homepage: https://github.com/mod-audio/jack2
+Description: JACK Audio Connection Kit (JACK2 server)
+ JACK is a low-latency audio server.
+ This package contains the jackd (JACK2) daemon.
+
+Package: libjack-jack2-dev
+Architecture: arm64
+Version: 1.9.23
+Priority: optional
+Section: libdevel
+Source: jack2
+Maintainer: Micah John
+Installed-Size: 211
+Provides: libjack-jackd2-dev
+Depends: jack2 (= 1.9.23)
+Conflicts: libjack-jackd2-dev
+Replaces: libjack-jackd2-dev
+Filename: pool/main/libjack-jack2-dev_1.9.23_arm64.deb
+Size: 39144
+MD5sum: e2fb58a777380638eafa51d22c0975ef
+SHA1: 10dc22c2d6ba2463facbaf43267498f9e9868e92
+SHA256: c8b90c322deed903f5a568aa1a07230e976ba747cb591871166bfdffdf9a7fd9
+SHA512: a0e69d03bb34455bafec7c013151a12a0099e9a356c831d254a14e3b6aa45cb5badc593dcd38fff63a22a96d1fdaca4189c22ac7082f4d358a2890b2394dc03f
+Homepage: https://github.com/mod-audio/jack2
+Description: JACK Audio Connection Kit (JACK2) development files
+ Headers and linker symlinks for building software against JACK2.
+
 Package: mod-host
 Architecture: arm64
 Version: 1.14.0
@@ -283,6 +379,23 @@ SHA512: 41968d69ebeb02c4a10533910125fe6888f7ce5de36053d9e109f2539e26baebbe3c9149
 Homepage: https://divideco.com
 Description: MOD-Host package.
 
+Package: mod-host
+Architecture: arm64
+Version: 1.15.0
+Multi-Arch: foreign
+Priority: optional
+Section: audio
+Maintainer: Micah John
+Installed-Size: 585
+Filename: pool/main/mod-host_1.15.0_arm64.deb
+Size: 97168
+MD5sum: b26acf9e00e1ae98bdbc16b375c7ceea
+SHA1: 43488c76474e5100b9333e035384e856b4c21b4b
+SHA256: c68bd1f1b406ca51f3ae6661634839ea3be4b594a2b4a690456a7aacbfe14506
+SHA512: 9acff32cb68dec2b8476c38e1fa9523d082d39586ea66a01ee3152d325e2b3b0ef73869a37fc38ce50eb0199775ac89e7bf680578d91dacc51564951f29b4daf
+Homepage: https://divideco.com
+Description: MOD-Host package.
+
 Package: mod-midi-merger
 Architecture: arm64
 Version: 1.0.0
@@ -290,14 +403,14 @@ Multi-Arch: foreign
 Priority: optional
 Section: sound
 Maintainer: Micah John
-Installed-Size: 147
-Depends: libc6 (>= 2.34), libjack-jackd2-0
+Installed-Size: 146
+Depends: jack2, libc6 (>= 2.34)
 Filename: pool/main/mod-midi-merger_1.0.0_arm64.deb
-Size: 7468
-MD5sum: 235dc0e7e193965b9fc984b35431ee9c
-SHA1: 5d925c9607b8c0a84da871aee01a5402b72205dc
-SHA256: 6acf3ca552c25ce9d4bac07f62a3dfb970e00471bcfbf8eb404453b69d66ff98
-SHA512: 03e967c2d123e8bb859b24380ca5ac56f9adfc752686fa909a48905c52e6b829ba2132f99bde966b2b7b8e1fd6506fa3827cdbd7057634fd3732106e0400b8c1
+Size: 6288
+MD5sum: 9f806207e3dc5c24ee83a468ea2bbe9e
+SHA1: c791198ca4bc94b158c1a5ba3f18c1ed0405b8a9
+SHA256: 32bcae96b917fddc23767a73a8ebe2883c7b8f2db279addf4a1a5e1d2f1f195b
+SHA512: bff7612bf961adb86481cb11a713ff8c85f78bccb712d580723a9297b0e7b3e911cd0f418b3c7e7880f30be404f6c221a0561075dab45d58ae529e962c218d0e
 Homepage: https://divideco.com
 Description: mod-midi-merger package
 
